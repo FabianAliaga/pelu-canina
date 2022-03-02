@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Saira', sans-serif;
+  
+}
+
+/* ? vista */
+section {
+  padding: 15vh 0;
+}
+
+/* ? HERO */
+.hero {
+  position: relative;
+  width: 100%;
+  padding-top: 50vh;
+  margin-bottom: 70px;
+  background-size: cover;
+  background: radial-gradient(
+      ellipse at center,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 36%,
+      rgba(0, 0, 0, 0.65) 100%
+    ),
+    url('img/imagenes/como-hacer-una-sesion-de-peluqueria-canina-en-casa-1-1024x576.jpg') no-repeat center center scroll;
+}
+.hero:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(
+    circle farthest-corner at 12.3% 19.3%,
+    rgb(185, 110, 145) 0%,
+    rgb(188, 199, 202) 100%
+  );
+  opacity: 0.8;
+  text-align: center;
+}
+
+.hero .mobile-image {
+  margin-bottom: -158px;
+  max-width: 100%;
+}
+
+
+/* ? GALERIA */
+
+#galeria {
+
+     background-image: radial-gradient(
+    circle farthest-corner at 12.3% 19.3%,
+    rgb(224, 168, 210) 0%,
+    rgb(157, 163, 165) 100%
+  );
+}
+
+
+/* ? FOOTER */
+footer {
+  background: #be6bac;
+  color: #ccc;
+}
+.rrss-icon {
+  font-size: 20px;
+  color: rgb(22, 21, 21);
+}
+.copy {
+  font-size: 10px;
+}
+.copy-link {
+  color: rgb(10, 10, 10);
+}
+
+.rrss-icon:hover,
+.copy-link:hover {
+  color: #e0cfd8;
+  text-decoration: none;
+  transition: 0.5s all ease;
+}
